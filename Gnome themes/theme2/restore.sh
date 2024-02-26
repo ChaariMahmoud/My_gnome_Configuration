@@ -1,6 +1,7 @@
 #!/bin/bash
 
-
+#Update the system
+sudo apt update
 # Dconf Editor , GNOME Tweaks and GNOME Extensions Installation
 sudo apt install dconf-editor gnome-tweaks gnome-shell-extensions
 
