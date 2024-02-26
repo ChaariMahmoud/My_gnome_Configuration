@@ -22,10 +22,10 @@ If you have your custom gnome and you want to backup it :
 1. Copy backup.sh to another repository
 2. Run it as a root :
    This script will automatically creates:
-   . full-gnome-settings file
-   . my-extentions.tar.gz
-   . my-icons.taz.gz
-   . my-themes.tar.gz
+   1. full-gnome-settings file
+   2. my-extentions.tar.gz
+   3. my-icons.taz.gz
+   4. my-themes.tar.gz
 3. Create a repository Background
 4. Add your Background image in this repository and rename it "wallpapper.jpg" (You can modify the default name in restore.sh)
 5. Copy restore.sh to your repository
