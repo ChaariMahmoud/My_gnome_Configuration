@@ -332,7 +332,7 @@ sleep-inactive-ac-type='nothing'
 [org/gnome/shell]
 disable-user-extensions=false
 disabled-extensions=['apps-menu@gnome-shell-extensions.gcampax.github.com', 'ubuntu-dock@ubuntu.com', 'ddterm@amezin.github.com', 'gamemode@christian.kellner.me', 'gsconnect@andyholmes.github.io']
-enabled-extensions=['activate_gnome@isjerryxiao', 'add-to-desktop@tommimon.github.com', 'blur-my-shell@aunetx', 'caffeine@patapon.info', 'CoverflowAltTab@palatis.blogspot.com', 'custom-osd@neuromorph', 'dash-to-dock@micxgx.gmail.com', 'disk-usage@0ct0puce.com', 'ideapad@laurento.frittella', 'just-perfection-desktop@just-perfection', 'drive-menu@gnome-shell-extensions.gcampax.github.com', 'unite@hardpixel.eu', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'waylandorx11@injcristianrojas.github.com', 'wifiqrcode@glerro.pm.me', 'wireless-hid@chlumskyvaclav.gmail.com', 'mediacontrols@cliffniff.github.com', 'Vitals@CoreCoding.com', 'rounded-window-corners@yilozt']
+enabled-extensions=[ 'add-to-desktop@tommimon.github.com', 'blur-my-shell@aunetx', 'caffeine@patapon.info', 'CoverflowAltTab@palatis.blogspot.com', 'custom-osd@neuromorph', 'dash-to-dock@micxgx.gmail.com', 'disk-usage@0ct0puce.com', 'ideapad@laurento.frittella', 'just-perfection-desktop@just-perfection', 'drive-menu@gnome-shell-extensions.gcampax.github.com', 'unite@hardpixel.eu', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'waylandorx11@injcristianrojas.github.com', 'wifiqrcode@glerro.pm.me', 'wireless-hid@chlumskyvaclav.gmail.com', 'mediacontrols@cliffniff.github.com', 'Vitals@CoreCoding.com', 'rounded-window-corners@yilozt']
 favorite-apps=['firefox_firefox.desktop', 'org.gnome.Nautilus.desktop', 'io.missioncenter.MissionCenter.desktop', 'spotify.desktop', 'org.gnome.Software.desktop']
 had-bluetooth-devices-setup=true
 welcome-dialog-last-shown-version='42.9'
@@ -421,7 +421,7 @@ global-rounded-corner-settings={'padding': <{'left': <uint32 1>, 'right': <uint3
 settings-version=uint32 5
 
 [org/gnome/shell/extensions/unite]
-desktop-name-text='Ubuntu Desktop - GNOME DE'
+desktop-name-text='Ubuntu 22.04'
 extend-left-box=false
 hide-activities-button='never'
 window-buttons-theme='osx-arc'
