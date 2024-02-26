@@ -16,7 +16,7 @@ tar --extract --file my-extensions.tar.gz -C ~/ --strip-components=2
 dconf load / < full-gnome-settings
 
 # Restore the Background
-cp Background/macos-monterey-1920x1080_897687-mm-90.jpg ~/Pictures
-gsettings set org.gnome.desktop.background picture-uri-dark file://$HOME/Pictures/macos-monterey-1920x1080_897687-mm-90.jpg
+cp Background/wallpapper.jpg ~/Pictures
+gsettings set org.gnome.desktop.background picture-uri-dark file://$HOME/Pictures/wallpapper.jpg
 
 echo "Log out and Log in so the extensions will work :)"
