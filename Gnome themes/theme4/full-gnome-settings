@@ -1,0 +1,202 @@
+[apps/update-manager]
+first-run=false
+launch-count=1
+launch-time=int64 1709129021
+
+[com/ubuntu/update-notifier]
+release-check-time=uint32 1709129016
+
+[org/gnome/control-center]
+last-panel='user-accounts'
+
+[org/gnome/desktop/app-folders]
+folder-children=['Utilities', 'YaST']
+
+[org/gnome/desktop/app-folders/folders/Utilities]
+apps=['gnome-abrt.desktop', 'gnome-system-log.desktop', 'nm-connection-editor.desktop', 'org.gnome.baobab.desktop', 'org.gnome.Connections.desktop', 'org.gnome.DejaDup.desktop', 'org.gnome.Dictionary.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.eog.desktop', 'org.gnome.Evince.desktop', 'org.gnome.FileRoller.desktop', 'org.gnome.fonts.desktop', 'org.gnome.seahorse.Application.desktop', 'org.gnome.tweaks.desktop', 'org.gnome.Usage.desktop', 'vinagre.desktop']
+categories=['X-GNOME-Utilities']
+name='X-GNOME-Utilities.directory'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/YaST]
+categories=['X-SuSE-YaST']
+name='suse-yast.directory'
+translate=true
+
+[org/gnome/desktop/background]
+color-shading-type='solid'
+picture-options='zoom'
+picture-uri='file:///home/gtk-graphite/.local/share/backgrounds/2024-02-28-16-05-33-wave-Dark-ubuntu.png'
+primary-color='#000000000000'
+secondary-color='#000000000000'
+
+[org/gnome/desktop/input-sources]
+sources=[('xkb', 'fr')]
+xkb-options=@as []
+
+[org/gnome/desktop/interface]
+document-font-name='Roboto 10'
+font-antialiasing='grayscale'
+font-hinting='slight'
+font-name='Roboto 10'
+gtk-theme='Graphite-Dark-nord'
+icon-theme='Tela-circle-grey-dark'
+monospace-font-name='Iosevka Term 10'
+show-battery-percentage=true
+
+[org/gnome/desktop/notifications]
+application-children=['org-gnome-software', 'org-videolan-vlc', 'org-gnome-nautilus', 'apport-gtk', 'org-gnome-terminal', 'gnome-network-panel']
+
+[org/gnome/desktop/notifications/application/apport-gtk]
+application-id='apport-gtk.desktop'
+
+[org/gnome/desktop/notifications/application/gnome-network-panel]
+application-id='gnome-network-panel.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-nautilus]
+application-id='org.gnome.Nautilus.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-software]
+application-id='org.gnome.Software.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-terminal]
+application-id='org.gnome.Terminal.desktop'
+
+[org/gnome/desktop/notifications/application/org-videolan-vlc]
+application-id='org.videolan.VLC.desktop'
+
+[org/gnome/desktop/peripherals/keyboard]
+numlock-state=true
+
+[org/gnome/desktop/screensaver]
+color-shading-type='solid'
+picture-options='zoom'
+picture-uri='file:///home/gtk-graphite/.local/share/backgrounds/2024-02-28-16-05-33-wave-Dark-ubuntu.png'
+primary-color='#000000000000'
+secondary-color='#000000000000'
+
+[org/gnome/desktop/wm/preferences]
+titlebar-font='Roboto Bold 11'
+
+[org/gnome/evolution-data-server]
+migrated=true
+network-monitor-gio-name=''
+
+[org/gnome/file-roller/listing]
+list-mode='as-folder'
+name-column-width=250
+show-path=false
+sort-method='name'
+sort-type='ascending'
+
+[org/gnome/file-roller/ui]
+sidebar-width=200
+window-height=480
+window-width=600
+
+[org/gnome/gedit/plugins]
+active-plugins=['filebrowser', 'docinfo', 'spell', 'modelines', 'sort', 'openlinks']
+
+[org/gnome/gedit/plugins/filebrowser]
+root='file:///'
+tree-view=true
+virtual-root='file:///home/gtk-graphite/.harmattan-themes/Glass/God-Mode'
+
+[org/gnome/gedit/preferences/ui]
+show-tabs-mode='auto'
+
+[org/gnome/gedit/state/history-entry]
+replace-with-entry=['wlo1']
+search-for-entry=['enp0s0']
+
+[org/gnome/gedit/state/window]
+bottom-panel-size=140
+side-panel-active-page='GeditWindowDocumentsPanel'
+side-panel-size=200
+size=(900, 700)
+state=87168
+
+[org/gnome/mutter]
+center-new-windows=true
+
+[org/gnome/nautilus/preferences]
+default-folder-viewer='icon-view'
+search-filter-time-type='last_modified'
+
+[org/gnome/nautilus/window-state]
+initial-size=(890, 550)
+maximized=true
+sidebar-width=196
+
+[org/gnome/settings-daemon/plugins/power]
+sleep-inactive-ac-timeout=3600
+sleep-inactive-ac-type='nothing'
+
+[org/gnome/shell]
+disabled-extensions=['ubuntu-dock@ubuntu.com']
+enabled-extensions=['user-theme@gnome-shell-extensions.gcampax.github.com', 'appindicatorsupport@rgcjonas.gmail.com', 'blur-my-shell@aunetx', 'clipboard-indicator@tudmotu.com', 'dash-to-panel@jderose9.github.com', 'mediacontrols@cliffniff.github.com']
+had-bluetooth-devices-setup=true
+welcome-dialog-last-shown-version='42.9'
+
+[org/gnome/shell/extensions/dash-to-panel]
+animate-appicon-hover-animation-extent={'RIPPLE': 4, 'PLANK': 4, 'SIMPLE': 1}
+appicon-margin=8
+appicon-padding=4
+available-monitors=[0]
+dot-position='BOTTOM'
+dot-style-focused='SOLID'
+dot-style-unfocused='SQUARES'
+hide-overview-on-startup=true
+hotkeys-overlay-combo='TEMPORARILY'
+leftbox-padding=-1
+panel-anchors='{"0":"MIDDLE"}'
+panel-element-positions='{"0":[{"element":"showAppsButton","visible":true,"position":"stackedTL"},{"element":"activitiesButton","visible":true,"position":"stackedTL"},{"element":"leftBox","visible":true,"position":"stackedTL"},{"element":"taskbar","visible":true,"position":"centerMonitor"},{"element":"centerBox","visible":true,"position":"stackedBR"},{"element":"rightBox","visible":true,"position":"stackedBR"},{"element":"dateMenu","visible":true,"position":"stackedBR"},{"element":"systemMenu","visible":true,"position":"stackedBR"},{"element":"desktopButton","visible":true,"position":"stackedBR"}]}'
+panel-lengths='{"0":100}'
+panel-sizes='{"0":48}'
+primary-monitor=0
+show-apps-icon-file='/home/gtk-graphite/.local/share/icons/start_menu_icons/diamond-square-symbolic.svg'
+status-icon-padding=-1
+trans-use-custom-opacity=true
+trans-use-dynamic-opacity=true
+tray-padding=-1
+window-preview-title-position='TOP'
+
+[org/gnome/shell/extensions/mediacontrols]
+extension-position='center'
+mouse-actions=['toggle_info', 'toggle_menu', 'none', 'none', 'none', 'none', 'none', 'none']
+seperator-chars=['|', '|']
+show-control-icons=false
+show-seperators=false
+show-sources-menu=false
+show-text=false
+track-label=['track', '-', 'artist']
+
+[org/gnome/shell/extensions/user-theme]
+name='Graphite-Dark-nord'
+
+[org/gtk/gtk4/settings/file-chooser]
+date-format='regular'
+location-mode='path-bar'
+show-hidden=true
+show-size-column=true
+show-type-column=true
+sidebar-width=159
+sort-column='name'
+sort-directories-first=false
+sort-order='ascending'
+type-format='category'
+window-size=(804, 327)
+
+[org/gtk/settings/file-chooser]
+date-format='regular'
+location-mode='path-bar'
+show-hidden=true
+show-size-column=true
+show-type-column=true
+sidebar-width=161
+sort-column='name'
+sort-directories-first=true
+sort-order='ascending'
+type-format='category'
+window-position=(276, 76)
+window-size=(1369, 902)

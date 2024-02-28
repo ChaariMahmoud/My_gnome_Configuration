@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=/bin/sh -c "$HOME/.config/autostart/start_conky.sh"
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_US]=Conky Harmattan
+Name=Conky Harmattan Startup
+Comment[en_US]=Conky Harmattan
+Comment=Conky Harmattan
