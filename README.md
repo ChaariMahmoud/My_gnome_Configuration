@@ -15,9 +15,10 @@ This script automatically configures the design of GNOME 42.9 for Ubuntu 22.04 a
    sudo chmod +x restore.sh
 5. Run the script as root:
    sudo ./restore.sh
-6. Log out and login again to your system
+6. Log out and login again to your system (You can tab in terminal "gnome-session-quit --no-prompt" if you didn't find the logout button)
 
 ## Note
+You can manually set the background by going to settings => Background => Add picture (feel free to choose whatever you want)
 If you have your custom gnome and you want to backup it :
 1. Copy backup.sh to another repository
 2. Run it as a root :
@@ -29,4 +30,5 @@ If you have your custom gnome and you want to backup it :
 3. Create a repository Background
 4. Add your Background image in this repository and rename it "wallpapper.jpg" (You can modify the default name in restore.sh)
 5. Copy restore.sh to your repository
-Now you will be able to use your custom gnome customization in a new system or user by running restore.sh  
+Now you will be able to use your custom gnome customization in a new system or user by running restore.sh
+
