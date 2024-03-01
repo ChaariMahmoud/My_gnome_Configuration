@@ -19,6 +19,7 @@ This script automatically configures the design of GNOME 42.9 for Ubuntu 22.04 a
 
 ## Note
 You can manually set the background by going to settings => Background => Add picture (feel free to choose whatever you want)
+
 If you have your custom gnome and you want to backup it :
 1. Copy backup.sh to another repository
 2. Run it as a root :
