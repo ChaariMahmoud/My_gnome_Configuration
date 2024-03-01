@@ -17,6 +17,8 @@ dconf load / < full-gnome-settings
 
 # Restore the Background
 cp Background/wallpapper.jpg ~/Pictures
+gsettings set org.gnome.desktop.background picture-uri file://$HOME/Pictures/wallpapper.jpg
 gsettings set org.gnome.desktop.background picture-uri-dark file://$HOME/Pictures/wallpapper.jpg
 
 echo "Log out and Log in so the extensions will work :)"
+gnome-session-quit 

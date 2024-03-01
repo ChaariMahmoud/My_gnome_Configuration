@@ -7,7 +7,7 @@ launch-time=int64 1709053083
 release-check-time=uint32 1708988823
 
 [org/gnome/control-center]
-last-panel='background'
+last-panel='keyboard'
 
 [org/gnome/desktop/app-folders]
 folder-children=['Utilities', 'YaST']
@@ -26,8 +26,8 @@ translate=true
 [org/gnome/desktop/background]
 color-shading-type='solid'
 picture-options='zoom'
-picture-uri='file:///home/test2/.local/share/backgrounds/2024-02-27-20-51-01-kien-do-uUVkzxDR1D0-unsplash.jpg'
-picture-uri-dark='file:///usr/share/backgrounds/everforest/kien-do-uUVkzxDR1D0-unsplash.jpg'
+picture-uri='file:///home/test3/Pictures/wallpapper.jpg'
+picture-uri-dark='file:///home/test3/Pictures/wallpapper.jpg'
 primary-color='#000000000000'
 secondary-color='#000000000000'
 
@@ -37,17 +37,18 @@ sources=[('xkb', 'fr+azerty')]
 xkb-options=@as []
 
 [org/gnome/desktop/interface]
+color-scheme='prefer-light'
 cursor-theme='Sukito-R-Everforest'
 document-font-name='IBM Plex Sans 10'
 enable-animations=true
 font-hinting='slight'
 font-name='IBM Plex Sans 10'
 gtk-theme='Everforest-Dark-BL-MOD'
-icon-theme='Papirus-Dark'
+icon-theme='Yaru-sage-dark'
 monospace-font-name='FiraCode Nerd Font Mono 10'
 
 [org/gnome/desktop/notifications]
-application-children=['org-gnome-nautilus', 'org-gnome-extensions-desktop', 'org-gnome-dejadup', 'org-gnome-chromegnomeshell', 'org-gnome-fileroller', 'spotify', 'org-gnome-shell-extensions', 'firefox', 'org-gnome-gedit', 'code', 'ca-desrt-dconf-editor', 'org-gnome-shell-extensions-gsconnect']
+application-children=['org-gnome-nautilus', 'org-gnome-extensions-desktop', 'org-gnome-dejadup', 'org-gnome-chromegnomeshell', 'org-gnome-fileroller', 'spotify', 'org-gnome-shell-extensions', 'firefox', 'org-gnome-gedit', 'code', 'ca-desrt-dconf-editor', 'libreoffice-writer']
 
 [org/gnome/desktop/notifications/application/ca-desrt-dconf-editor]
 application-id='ca.desrt.dconf-editor.desktop'
@@ -57,6 +58,12 @@ application-id='code.desktop'
 
 [org/gnome/desktop/notifications/application/firefox]
 application-id='firefox.desktop'
+
+[org/gnome/desktop/notifications/application/gnome-network-panel]
+application-id='gnome-network-panel.desktop'
+
+[org/gnome/desktop/notifications/application/libreoffice-writer]
+application-id='libreoffice-writer.desktop'
 
 [org/gnome/desktop/notifications/application/org-gnome-chromegnomeshell]
 application-id='org.gnome.ChromeGnomeShell.desktop'
@@ -76,8 +83,7 @@ application-id='org.gnome.gedit.desktop'
 [org/gnome/desktop/notifications/application/org-gnome-nautilus]
 application-id='org.gnome.Nautilus.desktop'
 
-[org/gnome/desktop/notifications/application/org-gnome-shell-extensions-gsconnect]
-application-id='org.gnome.Shell.Extensions.GSConnect.desktop'
+
 
 [org/gnome/desktop/notifications/application/org-gnome-shell-extensions]
 application-id='org.gnome.Shell.Extensions.desktop'
@@ -108,6 +114,10 @@ idle-delay=uint32 0
 button-layout='close,minimize,maximize:'
 titlebar-font='IBM Plex Sans Bold 10'
 
+[org/gnome/eog/view]
+background-color='rgb(0,0,0)'
+use-background-color=true
+
 [org/gnome/evolution-data-server]
 migrated=true
 network-monitor-gio-name=''
@@ -127,6 +137,14 @@ window-width=600
 [org/gnome/gedit/plugins]
 active-plugins=['docinfo', 'openlinks', 'filebrowser', 'modelines', 'spell', 'sort']
 
+[org/gnome/gedit/plugins/filebrowser]
+root='file:///'
+tree-view=true
+virtual-root='file:///home/test2/Desktop/the3'
+
+[org/gnome/gedit/preferences/editor]
+scheme='Yaru'
+
 [org/gnome/gedit/preferences/ui]
 show-tabs-mode='auto'
 
@@ -134,7 +152,7 @@ show-tabs-mode='auto'
 bottom-panel-size=140
 side-panel-active-page='GeditWindowDocumentsPanel'
 side-panel-size=200
-size=(900, 678)
+size=(902, 670)
 state=87168
 
 [org/gnome/gnome-system-monitor]
@@ -160,6 +178,9 @@ search-filter-time-type='last_modified'
 initial-size=(890, 550)
 maximized=false
 
+[org/gnome/settings-daemon/plugins/media-keys]
+terminal=['<Primary><Alt>t']
+
 [org/gnome/settings-daemon/plugins/power]
 idle-dim=false
 sleep-inactive-ac-timeout=3600
@@ -168,7 +189,7 @@ sleep-inactive-ac-type='nothing'
 [org/gnome/shell]
 disable-user-extensions=false
 disabled-extensions=['ubuntu-appindicators@ubuntu.com', 'custom-osd@neuromorph', 'visualizer@sound.org', 'widgets@aylur', 'just-perfection-desktop@just-perfection', 'pickawindow@lluo.gitlab.com', 'lightshell@dikasp.gitlab', 'ubuntu-dock@ubuntu.com', 'activate-window-by-title@lucaswerkmeister.de', 'ding@rastersoft.com']
-enabled-extensions=['user-theme@gnome-shell-extensions.gcampax.github.com', 'appindicatorsupport@rgcjonas.gmail.com', 'arcmenu@arcmenu.com', 'dash-to-panel@jderose9.github.com', 'Vitals@CoreCoding.com', 'weatherornot@somepaulo.github.io', 'CoverflowAltTab@palatis.blogspot.com', 'rounded-window-corners@yilozt', 'shell-configurator@adeswanta', 'forge@jmmaranan.com', 'Rounded_Corners@lennart-k', 'status-area-horizontal-spacing@mathematical.coffee.gmail.com', 'gsconnect@andyholmes.github.io', 'blur-my-shell@aunetx']
+enabled-extensions=['user-theme@gnome-shell-extensions.gcampax.github.com', 'appindicatorsupport@rgcjonas.gmail.com', 'arcmenu@arcmenu.com', 'dash-to-panel@jderose9.github.com', 'Vitals@CoreCoding.com', 'weatherornot@somepaulo.github.io', 'CoverflowAltTab@palatis.blogspot.com', 'rounded-window-corners@yilozt', 'shell-configurator@adeswanta', 'forge@jmmaranan.com', 'Rounded_Corners@lennart-k', 'status-area-horizontal-spacing@mathematical.coffee.gmail.com', 'blur-my-shell@aunetx']
 favorite-apps=['firefox_firefox.desktop', 'org.gnome.Nautilus.desktop', 'libreoffice-writer.desktop', 'yelp.desktop', 'org.gnome.Terminal.desktop', 'org.gnome.tweaks.desktop', 'snap-store_ubuntu-software.desktop', 'org.gnome.Extensions.desktop']
 had-bluetooth-devices-setup=true
 welcome-dialog-last-shown-version='42.9'
@@ -289,9 +310,6 @@ css-last-update=uint32 37
 css-updated='1700387590596'
 tiling-mode-enabled=false
 
-[org/gnome/shell/extensions/gsconnect]
-id='337c69a1-0a3f-4ff8-8b74-8f2b712e1deb'
-name='hp-laptop-15-da1xxx'
 
 [org/gnome/shell/extensions/rounded-window-corners]
 border-color=(0.7450980544090271, 0.77254903316497803, 0.69803923368453979, 1.0)
@@ -329,13 +347,23 @@ locations=[<(uint32 2, <('Tokyo Heliport', 'RJTI', false, [(0.62191898430954862,
 [org/gnome/shell/world-clocks]
 locations=[<(uint32 2, <('New York', 'KNYC', true, [(0.71180344078725644, -1.2909618758762367)], [(0.71059804659265924, -1.2916478949920254)])>)>, <(uint32 2, <('Tokyo', 'RJTI', true, [(0.62191898430954862, 2.4408429589140699)], [(0.62282074357417661, 2.4391218722853854)])>)>]
 
+[org/gnome/software]
+check-timestamp=int64 1709308184
+
 [org/gnome/system/location]
 enabled=false
+
+[org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+use-system-font=false
+
+[org/gtk/gtk4/settings/color-chooser]
+custom-colors=[(1.0, 0.96470588445663452, 0.42352941632270813, 1.0), (0.70588237047195435, 0.65490198135375977, 0.83921569585800171, 1.0), (0.9686274528503418, 0.63529413938522339, 0.16862745583057404, 1.0), (0.066666670143604279, 0.78039216995239258, 0.87843137979507446, 1.0), (0.92549020051956177, 0.36862745881080627, 0.36862745881080627, 1.0)]
+selected-color=(true, 1.0, 0.96470588445663452, 0.42352941632270813, 1.0)
 
 [org/gtk/settings/file-chooser]
 date-format='regular'
 location-mode='path-bar'
-show-hidden=false
+show-hidden=true
 show-size-column=true
 show-type-column=true
 sidebar-width=156
