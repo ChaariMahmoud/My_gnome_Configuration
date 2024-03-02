@@ -1,0 +1,236 @@
+[apps/update-manager]
+first-run=false
+launch-count=1
+launch-time=int64 1709169739
+
+[com/ubuntu/update-notifier]
+release-check-time=uint32 1709169734
+
+[org/gnome/control-center]
+last-panel='ubuntu'
+
+[org/gnome/deja-dup]
+backend='google'
+prompt-check='2024-02-29T01:25:14.291768Z'
+
+[org/gnome/desktop/app-folders]
+folder-children=['Utilities', 'YaST']
+
+[org/gnome/desktop/app-folders/folders/Utilities]
+apps=['gnome-abrt.desktop', 'gnome-system-log.desktop', 'nm-connection-editor.desktop', 'org.gnome.baobab.desktop', 'org.gnome.Connections.desktop', 'org.gnome.DejaDup.desktop', 'org.gnome.Dictionary.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.eog.desktop', 'org.gnome.Evince.desktop', 'org.gnome.FileRoller.desktop', 'org.gnome.fonts.desktop', 'org.gnome.seahorse.Application.desktop', 'org.gnome.tweaks.desktop', 'org.gnome.Usage.desktop', 'vinagre.desktop']
+categories=['X-GNOME-Utilities']
+name='X-GNOME-Utilities.directory'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/YaST]
+categories=['X-SuSE-YaST']
+name='suse-yast.directory'
+translate=true
+
+[org/gnome/desktop/background]
+color-shading-type='solid'
+picture-options='zoom'
+picture-uri='file:///home/windows11/.local/share/backgrounds/2024-02-29-02-55-19-windows-11-blue-stock-white-background-light-official-3840x2400-5616.jpg'
+primary-color='#000000000000'
+secondary-color='#000000000000'
+
+[org/gnome/desktop/input-sources]
+sources=[('xkb', 'fr')]
+xkb-options=@as []
+
+[org/gnome/desktop/interface]
+color-scheme='prefer-light'
+cursor-theme='Fluent-cursors'
+document-font-name='Segoe UI 10'
+font-hinting='slight'
+font-name='Segoe UI 10'
+gtk-theme='Fluent-Light-compact'
+icon-theme='Win11-blue'
+monospace-font-name='Ubuntu Mono 11'
+
+[org/gnome/desktop/notifications]
+application-children=['org-gnome-software', 'org-gnome-tweaks', 'apport-gtk']
+
+[org/gnome/desktop/notifications/application/apport-gtk]
+application-id='apport-gtk.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-software]
+application-id='org.gnome.Software.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-tweaks]
+application-id='org.gnome.tweaks.desktop'
+
+[org/gnome/desktop/peripherals/keyboard]
+numlock-state=true
+
+[org/gnome/desktop/screensaver]
+color-shading-type='solid'
+picture-options='zoom'
+picture-uri='file:///home/windows11/.local/share/backgrounds/2024-02-29-02-55-19-windows-11-blue-stock-white-background-light-official-3840x2400-5616.jpg'
+primary-color='#000000000000'
+secondary-color='#000000000000'
+
+[org/gnome/desktop/wm/preferences]
+titlebar-font='Segoe UI Bold 11'
+
+[org/gnome/evolution-data-server]
+migrated=true
+network-monitor-gio-name=''
+
+[org/gnome/gedit/plugins]
+active-plugins=['filebrowser', 'docinfo', 'spell', 'modelines', 'sort', 'openlinks']
+
+[org/gnome/gedit/preferences/editor]
+scheme='Yaru'
+
+[org/gnome/gedit/preferences/ui]
+show-tabs-mode='auto'
+
+[org/gnome/gedit/state/window]
+bottom-panel-size=140
+side-panel-active-page='GeditWindowDocumentsPanel'
+side-panel-size=200
+size=(900, 691)
+state=87168
+
+[org/gnome/gnome-system-monitor]
+current-tab='resources'
+maximized=false
+network-total-in-bits=false
+show-dependencies=false
+show-whose-processes='user'
+window-state=(700, 500, 26, 23)
+
+[org/gnome/gnome-system-monitor/disktreenew]
+col-6-visible=true
+col-6-width=0
+
+[org/gnome/mutter]
+center-new-windows=true
+overlay-key='Super_L'
+
+[org/gnome/nautilus/preferences]
+default-folder-viewer='icon-view'
+search-filter-time-type='last_modified'
+
+[org/gnome/nautilus/window-state]
+initial-size=(890, 550)
+maximized=true
+
+[org/gnome/shell]
+disabled-extensions=['ubuntu-dock@ubuntu.com']
+enabled-extensions=['user-theme@gnome-shell-extensions.gcampax.github.com', 'dash-to-panel@jderose9.github.com', 'arcmenu@arcmenu.com', 'date-menu-formatter@marcinjakubowski.github.com', 'CoverflowAltTab@palatis.blogspot.com', 'mediacontrols@cliffniff.github.com', 'blur-my-shell@aunetx']
+had-bluetooth-devices-setup=true
+welcome-dialog-last-shown-version='42.9'
+
+[org/gnome/shell/extensions/arcmenu]
+alphabetize-all-programs=false
+button-padding=7
+custom-menu-button-icon='/home/windows11/Downloads/GNOME-to-Win11-Setup/win11-start-menu.png'
+custom-menu-button-icon-size=27.0
+eleven-disable-frequent-apps=false
+eleven-extra-buttons=[['Visual Studio Code', 'vscode', 'code.desktop'], ['Files', 'org.gnome.Nautilus', 'org.gnome.Nautilus.desktop'], ['Terminal', 'org.gnome.Terminal', 'org.gnome.Terminal.desktop'], ['Settings', 'org.gnome.Settings', 'org.gnome.Settings.desktop']]
+enable-standlone-runner-menu=false
+force-menu-location='BottomCentered'
+left-panel-width=175
+menu-background-color='rgba(48,48,49,0.98)'
+menu-border-color='rgb(60,60,60)'
+menu-button-appearance='Icon'
+menu-button-border-radius=(true, 0)
+menu-button-border-width=(false, 3)
+menu-button-icon='Custom_Icon'
+menu-button-position-offset=0
+menu-foreground-color='rgb(223,223,223)'
+menu-height=750
+menu-item-active-bg-color='rgb(25,98,163)'
+menu-item-active-fg-color='rgb(255,255,255)'
+menu-item-hover-bg-color='rgb(21,83,158)'
+menu-item-hover-fg-color='rgb(255,255,255)'
+menu-item-icon-size='Large'
+menu-layout='Eleven'
+menu-separator-color='rgba(255,255,255,0.1)'
+pinned-app-list=['Firefox Web Browser', 'firefox', 'firefox.desktop', 'Files', 'org.gnome.Nautilus', 'org.gnome.Nautilus.desktop', 'Terminal', 'org.gnome.Terminal', 'org.gnome.Terminal.desktop', 'Visual Studio Code', 'vscode', 'code.desktop', 'WPS Writer', 'wps-office2019-wpsmain', 'wps-office-wps.desktop']
+position-in-panel='Center'
+prefs-visible-page=0
+search-entry-border-radius=(true, 25)
+
+[org/gnome/shell/extensions/blur-my-shell/panel]
+blur=false
+
+[org/gnome/shell/extensions/coverflowalttab]
+animation-time=1000
+dim-factor=1
+enforce-primary-monitor=true
+hide-panel=false
+icon-style='Overlay'
+position='Top'
+switch-per-monitor=true
+switcher-style='Timeline'
+
+[org/gnome/shell/extensions/dash-to-panel]
+animate-appicon-hover-animation-extent={'RIPPLE': 4, 'PLANK': 4, 'SIMPLE': 1}
+appicon-margin=0
+appicon-padding=10
+available-monitors=[0]
+dot-position='BOTTOM'
+hotkeys-overlay-combo='TEMPORARILY'
+leftbox-padding=4
+leftbox-size=16
+panel-anchors='{"0":"MIDDLE"}'
+panel-element-positions='{"0":[{"element":"leftBox","visible":false,"position":"stackedTL"},{"element":"showAppsButton","visible":true,"position":"stackedTL"},{"element":"activitiesButton","visible":false,"position":"stackedTL"},{"element":"centerBox","visible":true,"position":"centerMonitor"},{"element":"taskbar","visible":true,"position":"centerMonitor"},{"element":"rightBox","visible":true,"position":"stackedBR"},{"element":"systemMenu","visible":true,"position":"stackedBR"},{"element":"dateMenu","visible":true,"position":"stackedBR"},{"element":"desktopButton","visible":true,"position":"stackedBR"}]}'
+panel-lengths='{"0":100}'
+panel-sizes='{"0":48}'
+primary-monitor=0
+showdesktop-button-width=15
+status-icon-padding=4
+trans-panel-opacity=0.84999999999999998
+trans-use-custom-opacity=true
+trans-use-dynamic-opacity=true
+tray-padding=4
+tray-size=16
+window-preview-title-position='TOP'
+
+[org/gnome/shell/extensions/date-menu-formatter]
+pattern='dd/MM/y\\nHH : mm aa'
+
+[org/gnome/shell/extensions/mediacontrols]
+extension-position='right'
+mouse-actions=['toggle_info', 'none', 'none', 'none', 'none', 'none', 'none', 'none']
+seperator-chars=['|', '|']
+show-control-icons=false
+show-text=false
+track-label=['track', '-', 'artist']
+
+[org/gnome/shell/extensions/user-theme]
+name='Fluent-Light-compact'
+
+[org/gnome/software]
+install-timestamp=int64 1708194231
+update-notification-timestamp=int64 1709169677
+
+[org/gtk/gtk4/settings/file-chooser]
+date-format='regular'
+location-mode='path-bar'
+show-hidden=false
+show-size-column=true
+show-type-column=true
+sidebar-width=162
+sort-column='name'
+sort-directories-first=false
+sort-order='ascending'
+type-format='category'
+window-size=(807, 327)
+
+[org/gtk/settings/file-chooser]
+date-format='regular'
+location-mode='path-bar'
+show-hidden=true
+show-size-column=true
+show-type-column=true
+sidebar-width=154
+sort-column='name'
+sort-directories-first=true
+sort-order='ascending'
+type-format='category'
+window-position=(329, 78)
+window-size=(1262, 822)
