@@ -33,3 +33,6 @@ If you have your custom gnome and you want to backup it :
 5. Copy restore.sh to your repository
 Now you will be able to use your custom gnome customization in a new system or user by running restore.sh
 
+## Acknowledgments
+Special thanks to my friend Mouadh Jedli for their contribution and support.
+Check out his repository [here](https://github.com/Mouadh-Jedli/theme_script?fbclid=IwAR1F6nEWoVpOHIyV5ktGfb9KLVeCgmHLOcrbD2l1M-fhxmrJbboUz75tMMM).
