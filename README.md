@@ -1,38 +1,50 @@
 # GNOME Configuration Script
 
-This script automatically configures the design of GNOME 42.9 for Ubuntu 22.04 and other Debian-based systems that use GNOME 42.
+This script automates the design configuration of GNOME 42.9 on Ubuntu 22.04 and other Debian-based systems running GNOME 42.
 
-## Requirements
+## Prerequisites
 
-- Ubuntu 22.04 or other Debian-based systems with GNOME 42.
+- Ubuntu 22.04 or any Debian-based system with GNOME 42 installed.
 
-## Usage
+## How to Use
 
-1. Clone or download the script to your system.
-2. Move to the cloned repository
-3. Choose a theme repository and move to it
-4. Make the script restore.sh executable:
-   sudo chmod +x restore.sh
-5. Run the script as root:
-   sudo ./restore.sh
-6. Log out and login again to your system (You can tab in terminal "gnome-session-quit --no-prompt" if you didn't find the logout button)
+### Step 1: Clone the Repository
 
-## Note
-You can manually set the background by going to settings => Background => Add picture (feel free to choose whatever you want)
+Clone or download the script to your local machine:
 
-If you have your custom gnome and you want to backup it :
-1. Copy backup.sh to another repository
-2. Run it as a root :
-   This script will automatically creates:
-   1. full-gnome-settings file
-   2. my-extentions.tar.gz
-   3. my-icons.taz.gz
-   4. my-themes.tar.gz
-3. Create a repository Background
-4. Add your Background image in this repository and rename it "wallpapper.jpg" (You can modify the default name in restore.sh)
-5. Copy restore.sh to your repository
-Now you will be able to use your custom gnome customization in a new system or user by running restore.sh
+```bash
+git clone https://github.com/ChaariMahmoud/My_gnome_Configuration.git
+cd My_gnome_Configuration
+```
+### Step 2: Choose a Theme
+Navigate to the desired theme folder:
+
+```bash
+cd <theme-folder>
+```
+
+### Step 3: Make the Script Executable
+Before running, ensure the script has execute permissions:
+
+```bash
+sudo chmod +x restore.sh
+```
+
+### Step 4: Run the Script
+Execute the script as root:
+
+```bash
+sudo ./restore.sh
+```
+
+### Step 5: Log Out and Log Back In
+After running the script, log out and back in for changes to take effect. You can also use the terminal command to log out:
+
+```bash
+gnome-session-quit --no-prompt
+```
+
 
 ## Acknowledgments
-Special thanks to my friend Mouadh Jedli for his contribution and support.
-Check out his repository [here](https://github.com/Mouadh-Jedli/theme_script?fbclid=IwAR1F6nEWoVpOHIyV5ktGfb9KLVeCgmHLOcrbD2l1M-fhxmrJbboUz75tMMM).
+Special thanks to my friend [Mouadh Jedli](https://github.com/MHJedli) for his invaluable contribution and support.
+
